@@ -8,7 +8,7 @@ export interface ConversionResult {
 
 export class ConvertHandler {
   static processInput(input: string): ConversionResult | string {
-    // Your conversion logic here
+    // Simple working version
     return {
       initNum: 1,
       initUnit: "gal",
